@@ -1,0 +1,7 @@
+print("Hello, How are you?")
+print("Hello, \nHow are you?")
+print(r"Hello, \nHow are you?")
+print("Hello, \tHow are you?")
+print("Hello, \t\tHow are you?")
+print("This is John's Book")
+print('This is John\'s Book')
