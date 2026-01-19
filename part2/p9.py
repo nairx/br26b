@@ -27,10 +27,27 @@
 #         break   
 #     print(f"You have entered {num}")
     
+# counter = 1
+# while counter < 5:
+#     num = int(input("Enter number"))
+#     counter = counter + 1
+#     if num == 3:
+#         continue
+#     print(f"You have entered {num}")
+    
 counter = 1
 while counter < 5:
     num = int(input("Enter number"))
     counter = counter + 1
     if num == 3:
-        continue
+        pass
     print(f"You have entered {num}")
+    
+
+#Accept Account Number, Name and Balance
+#Print all the details
+#Show Menu > 1. Deposit 2. Withdraw 3. Exit  > until option 3 is pressed
+#if Deposit/Withdraw then accept amount
+#then perform the operation and print current balance
+#if withdraw is more than balance show insufficient fund
+
