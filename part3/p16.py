@@ -1,0 +1,25 @@
+names = {"Amy","John","Cathy","Amy"}
+# print(names)
+# print(names[0])
+# for i in names:
+#     print(i)
+# names.add("Mike")
+# print(names)
+# names.remove("Amy")
+# print(names)
+# names.discard("Brian")
+# print(names)
+# names.update(["Mike","Brian"])
+# print(names)
+# names.pop()
+# print(names)
+# names.clear()
+# print(names)
+
+l = list(names)
+print(l)
+t = tuple(names)
+print(t)
+list = [5,7,4,3]
+s = set(list)
+print(s)
