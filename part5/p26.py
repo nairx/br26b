@@ -10,6 +10,12 @@
 # result = add(10, 5)
 # print("Addition:", result)
 
-from calc import *
+# from calc import *
+# result = add(10, 5)
+# print("Addition:", result)
+
+from calc import divide,add
+result = divide(10, 12)  
+print("Division:", result)
 result = add(10, 5)
 print("Addition:", result)
