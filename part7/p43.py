@@ -20,3 +20,9 @@ def main():
     btnSubmit.place(relx=0.1,rely=0.4)
     root.mainloop()
 main()
+
+#Create a Math Quiz
+#Generate random question such as 10 + 2 = 
+#Accept the answer in the text box
+#On Click of Submit button 
+#Display the result below - Correct or Better Luck Next Time!
