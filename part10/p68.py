@@ -1,13 +1,13 @@
 import pandas as pd
-score = {
-    "John" : [45,None,40,45,56,40,45,56,40],
-    "Cathy":[90,34,30,45,56,40,90,34,30],
-    "Mike":[35,23,45,56,40,90,56,40,90],
-    "Amy":[70,30,65,56,40,90,56,40,90]
-}
+# score = {
+#     "John" : [45,None,40,45,56,40,45,56,40],
+#     "Cathy":[90,34,30,45,56,40,90,34,30],
+#     "Mike":[35,23,45,56,40,90,56,40,90],
+#     "Amy":[70,30,65,56,40,90,56,40,90]
+# }
 
 #2 D
-df = pd.DataFrame(score)
+# df = pd.DataFrame(score)
 # print(df)
 
 #2 D
@@ -43,9 +43,28 @@ df = pd.DataFrame(score)
 # print(df.info())
 # print(df.describe)
 
+#Handling Missing Data
+# print(df.isnull())
+# print(df.dropna())
+# df.fillna(100,inplace=True)
+# print(df)
 
-print(df.isnull())
-print(df.dropna())
+
+#sorting
+# print(df.sort_values("Cathy"))
+# print(df.sort_values("Cathy",ascending=False))
+
+
+
+#group by
+score = {
+    "name" : ["John","John","John","Cathy","Cathy"],
+    "marks":[90,34,30,45,56]
+}
+df = pd.DataFrame(score)
+print(df)
+print(df.groupby("name")["marks"].mean())
+
 
 
 
