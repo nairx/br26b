@@ -6,8 +6,8 @@ score = {
     "Social":70
 }
 
-series = pd.Series(score)
-print(series)
+# series = pd.Series(score)
+# print(series)
 
 series = pd.Series(score,index=["Maths","Science"])
 print(series)
